@@ -1,0 +1,93 @@
+/***fonts***/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'Rajdhani', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.logo {
+    font-size: 2em;
+    color: #5C68A5;
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #5C68A5;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navi a:hover,
+.navi a:active {
+    background: #5C68A5;
+    color: #FFE5DC;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    background-size: cover;
+}
+
+.sec {
+    position: relative;
+    background-color: hsl(265, 20%, 18%);
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #FFE5DC;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #FFE5DC;
+    font-weight: 300;
+}
