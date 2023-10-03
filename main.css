@@ -55,19 +55,23 @@ nav ul li a{
 }
 .maintxt{
     text-align: center;
+    padding: 0 clamp(4rem, 12vh, 20rem);
+    display: grid;
+    place-content: center;
 }
 .maintxt h1{
-    font-size: 160px;
-    color: #fff;
+    font-size: clamp(4rem, 12vw, 8rem);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     transition: 0.5s;
 }
-.maintxt #still h1 {
-    -webkit-text-stroke: 2px #fff;
+.maintxt #explode h1 {
     color: transparent;
 }
-.maintxt .contnt h1:hover{
+.maintxt #still h1 {
+    color: #fff;
+}
+.maintxt #explode h1:hover{
     -webkit-text-stroke: 2px #fff;
     color: transparent;
 }
