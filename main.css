@@ -63,10 +63,11 @@ nav ul li a{
     font-family: 'Times New Roman', Times, serif;
     transition: 0.5s;
 }
-.maintxt .content1 h1, .maintxt .content3 h1 {
-    display: none;
+.maintxt #still h1 {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
 }
-.maintxt .content2 h1:hover{
+.maintxt .contnt h1:hover{
     -webkit-text-stroke: 2px #fff;
     color: transparent;
 }
@@ -88,6 +89,8 @@ nav ul li a{
     bottom: 0;
     z-index: -1;
 }
+
+
 
 @media (min-aspect-ratio: 16/9) {
     .vid{
