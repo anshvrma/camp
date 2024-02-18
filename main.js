@@ -5,15 +5,15 @@ let tl = gsap.timeline({
         start: '10% top',
         end: '400 top',
         scrub: true,
-        markers: true
+        markers: false
     }
 })
 
 tl.to('#explode', {
-    y: 150
+    y: 133
 })
 tl.to('#explode1', {
-    y: -150
+    y: -133
 })
 
 //smooth scroll
